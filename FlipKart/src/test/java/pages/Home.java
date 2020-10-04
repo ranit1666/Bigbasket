@@ -297,6 +297,7 @@ public class Home extends BaseClass
 		System.out.println(newQty);
 	    newProQty=String.valueOf(newQty);
 		verifyBasketSubtotal(newProQty);
+		
 		//comment added by ranit
 		
 	}
