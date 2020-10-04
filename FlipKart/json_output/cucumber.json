@@ -1,0 +1,34 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify if user can log into flipkart",
+        "description": "",
+        "id": "testcase-for-login-into-flipkart;verify-if-user-can-log-into-flipkart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27580397900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the browser for flipkart",
+            "match": {
+              "location": "LoginSteps.user_opens_the_browser_for_flipkart()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Testcase for login into Flipkart",
+    "description": "",
+    "id": "testcase-for-login-into-flipkart",
+    "keyword": "Feature",
+    "uri": "E:/Workspace/FlipKart/src/test/java/features/Login.feature"
+  }
+]
