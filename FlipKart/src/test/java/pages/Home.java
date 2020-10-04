@@ -294,7 +294,7 @@ public class Home extends BaseClass
 			clickUsingJavascriptExecutor(btn_MyBasketDecrease);
 			newQty--;
 		
-		wait(120); //committed by archan
+		wait(2500); //committed by archan
 		System.out.println(newQty);
 
 			wait(10); //committed by archan
