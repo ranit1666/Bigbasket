@@ -289,11 +289,11 @@ public class Home extends BaseClass
 		int expectedQty=Integer.parseInt(qty);
 		while(newQty!=expectedQty)
 		{
-			wait(200); //committed by archan
+			wait(100); //committed by archan
 			clickUsingJavascriptExecutor(btn_MyBasketDecrease);
 			newQty--;
 		}
-		wait(100); //committed by arch
+		wait(10000); //committed by archan
 		System.out.println(newQty);
 	    newProQty=String.valueOf(newQty);
 		verifyBasketSubtotal(newProQty);
