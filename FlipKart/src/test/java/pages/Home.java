@@ -293,7 +293,7 @@ public class Home extends BaseClass
 			clickUsingJavascriptExecutor(btn_MyBasketDecrease);
 			newQty--;
 		}
-		wait(1000); //committed by archan
+		wait(12000); //committed by archan
 		System.out.println(newQty);
 	    newProQty=String.valueOf(newQty);
 		verifyBasketSubtotal(newProQty);
