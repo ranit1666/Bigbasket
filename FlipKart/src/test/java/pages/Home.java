@@ -303,7 +303,7 @@ public class Home extends BaseClass
 		}
 
 
-		wait(1500); //committed by ranit
+		wait(1600); //committed by ranit
         System.out.println(newQty);
 
 
