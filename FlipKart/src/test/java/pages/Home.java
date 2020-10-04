@@ -294,7 +294,7 @@ public class Home extends BaseClass
 			newQty--;
 		}
 
-		wait(100000); //committed by archan
+		wait(2000); //committed by branch1
 System.out.println(newQty);
 	    newProQty=String.valueOf(newQty);
 		verifyBasketSubtotal(newProQty);
